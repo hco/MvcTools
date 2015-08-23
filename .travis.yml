@@ -10,7 +10,8 @@ php:
 
 matrix:
   allow_failures:
-    - php: hhvm 7
+    - php: hhvm
+    - php: 7
 
 install:
   - composer install
